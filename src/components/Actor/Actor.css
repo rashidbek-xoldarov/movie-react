@@ -1,0 +1,37 @@
+.actor {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  backdrop-filter: blur(4px);
+}
+
+.actor-info {
+  width: 60%;
+  padding-top: 200px;
+  padding-bottom: 50px;
+}
+
+.actor-img {
+  width: 210px;
+  height: 300px;
+  margin-bottom: 24px;
+  border-radius: 12px;
+}
+
+.actor-title {
+  margin-top: 0;
+  margin-bottom: 18px;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 41px;
+  letter-spacing: 0.41px;
+  color: #ffffff;
+}
+
+.actor-text {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0.35px;
+  color: #f4f4f4;
+}

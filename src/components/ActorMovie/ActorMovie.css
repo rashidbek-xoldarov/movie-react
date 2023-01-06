@@ -1,0 +1,34 @@
+.actors-title {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 41px;
+  color: #ffffff;
+}
+
+.actor-item {
+  margin-bottom: 20px;
+}
+
+.similar-movie-item-img {
+  width: 120px;
+  height: 120;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+.actor-item-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+}
+
+.actor-item-title {
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 22px;
+  color: #e9e9e9;
+  text-align: center;
+}

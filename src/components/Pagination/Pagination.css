@@ -1,0 +1,21 @@
+.pagination-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.pagination-item {
+  padding: 8px 16px;
+  background-color: #1c192c;
+  color: white;
+  border-radius: 8px;
+}
+
+.active-item {
+  background-color: #fff;
+  color: #1c192c;
+}

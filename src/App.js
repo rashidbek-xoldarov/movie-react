@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Routes } from "react-router-dom";
+import Actor from "./components/Actor/Actor";
+import HeaderMain from "./components/Header/Header.style";
+import SinglePage from "./components/SignlePage/SinglePage";
+import { GlobalStyle } from "./global.style";
+import Home from "./pages/Home/Home.component";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <HeaderMain />
+      <Routes>
+        <Route path="/" element={<Home type="popular" />} />
+        <Route path="/top-rated" element={<Home type="top" />} />
+        <Route path="/upcoming" element={<Home type="upcoming" />} />
+        <Route path="/movies/:id" element={<SinglePage />} />
+        <Route path="/actor/:id" element={<Actor />} />
+      </Routes>
+      <GlobalStyle />
+    </>
   );
 }
 

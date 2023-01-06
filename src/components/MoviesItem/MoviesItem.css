@@ -1,0 +1,41 @@
+.movies-item-info {
+  padding: 0 10px;
+}
+
+.movies-item-title {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  color: #ffffff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.movies-item-text {
+  margin: 0;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #ffffff;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.movies-item-time {
+  margin-bottom: 8px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: -0.08px;
+  color: #a9a7b4;
+}
+
+.movies-item-link {
+  text-decoration: none;
+}
