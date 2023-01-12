@@ -9,7 +9,7 @@ export const Title = styled.h2`
 
 export const MoviesList = styled.ul`
   display: grid;
-  grid-template-columns: repeat(5, 200px);
+  grid-template-columns: repeat(5, 220px);
   gap: 20px;
   justify-content: space-between;
   margin-bottom: 0;

@@ -9,6 +9,7 @@ import "./SinglePage.css";
 const SinglePage = () => {
   const { id } = useParams();
   const [movie, setMovie] = useState([]);
+  console.log(movie.imdb_id);
 
   const hour = Math.floor(movie.runtime / 60);
   const minut = movie.runtime % 60;
@@ -46,7 +47,12 @@ const SinglePage = () => {
               </div>
               <p className="hero-text">{movie.overview}</p>
               <div className="hero-button-wrapper">
-                <button className="watch-btn">Watch</button>
+                <a
+                  className="watch-btn"
+                  href={`https://www.imdb.com/title/${movie.imdb_id}`}
+                >
+                  Watch
+                </a>
               </div>
             </div>
           )}
